@@ -1,0 +1,4 @@
+// Пример простого скрипта для изменения цвета заголовка при клике
+document.querySelector('h1').addEventListener('click', function() {
+    this.style.color = 'red';
+});
